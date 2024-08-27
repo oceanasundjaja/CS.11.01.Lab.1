@@ -6,7 +6,7 @@ public class Pages {
         Scanner scanner =new Scanner(System.in);
         System.out.println("Enter your age; ");
         int age = scanner.nextInt ();
-        int agetwo = 100-age;
-        System.out.println( age + "-years old olds should date somebody who is at least " + agetwo + "-years old");
+        int pages = 100-age;
+        System.out.println( age + "-years old olds should read at least " + pages + " pages before giving up on a book.");
     }
 }
